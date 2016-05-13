@@ -1,1 +1,4 @@
 # lab-5-bob-george
+
+# - BOB AND GEORGE PAIR PROGRAMMING
+# - FRIDAY MAY 13TH
