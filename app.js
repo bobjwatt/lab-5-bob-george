@@ -42,10 +42,16 @@ Write a function called sumAndMultiply() that takes in three numbers as argument
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(){}
+function sumAndMultiply(a, b, c) {
+  var sumResult = a + b + c;
+  var multResult = a * b * c;
+  var sumMessage = a + ' and ' + b + ' and ' + c + ' sum to ' + sumResult + '.';
+  var multMessage = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + multResult + '.';
+  return [sumResult, sumMessage, multMessage];
+}
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. don't forget to create a new branch for your work on the next question!
 
